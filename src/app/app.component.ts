@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { cards } from './card/cards';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'todo-card';
+ cards = cards;
+ 
+
+
+//  onHandleAdd(cards: any) {
+//   console.log(cards);
+//   // this.cards = data;
+  
+// }
 }
