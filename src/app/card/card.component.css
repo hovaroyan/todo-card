@@ -1,0 +1,9 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(41,137,215);
+    border-radius: 5px;
+    color: white;
+    align-items: center;
+}

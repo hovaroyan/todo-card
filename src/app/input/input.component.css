@@ -1,0 +1,11 @@
+.input-main-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    align-items: center;
+}

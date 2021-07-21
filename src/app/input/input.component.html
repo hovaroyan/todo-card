@@ -1,0 +1,9 @@
+<div class="input-main-container">
+  <div class="input-container">
+    <input placeholder="Name" [(ngModel)] = 'name'  >
+    <input placeholder="DESCRIPTION" [(ngModel)] = 'description'>
+    <input placeholder="DUE DATE" [(ngModel)] = 'dueDate'>
+    <app-button text=Add background="#4CAF50" color="black" (click)="handleAdd()" [disabled]= "name && description && dueDate ? false : true" > </app-button>
+  </div>
+</div>
+
