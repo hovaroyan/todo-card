@@ -2,5 +2,5 @@
   <input [(ngModel)] = 'name'  >
   <input [(ngModel)] = 'description'>
   <input [(ngModel)] = 'dueDate'>
-  <app-button text=add background="green" color="black" (click)="handleAdd()"> </app-button>
+  <app-button text=add background="green" color="black" (click)="handleAdd()" [disabled]= "name && description && dueDate ? false : true" > </app-button>
 </div>
