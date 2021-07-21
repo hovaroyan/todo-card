@@ -1,5 +1,5 @@
-import { Component, OnInit,Input, Output, EventEmitter} from '@angular/core';
-import { cards, ICard } from '../card/cards';
+import { Component, OnInit} from '@angular/core';
+import { cards } from '../card/cards';
 
 
 @Component({
@@ -28,6 +28,5 @@ this.name = ""
 this.description = ""
 this.dueDate = ""
 }
-
 
 }

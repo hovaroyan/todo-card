@@ -9,11 +9,4 @@ import { cards } from './card/cards';
 export class AppComponent {
  cards = cards;
  
-
-
-//  onHandleAdd(cards: any) {
-//   console.log(cards);
-//   // this.cards = data;
-  
-// }
 }
