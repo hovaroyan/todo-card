@@ -3,7 +3,7 @@
   <app-input> </app-input>
   <div class="main-cards-container">
     <div class="cards-container" *ngFor="let card of cards; let i = index">
-      <app-card [name]="card.name" [description]="card.description"  [dueDate]="card.dueDate" [index]="i"></app-card>
+      <app-card [data]="cards" [name]="card.name" [description]="card.description"  [dueDate]="card.dueDate" [index]="i"></app-card>
     </div>
   </div>
 </div>

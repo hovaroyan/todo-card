@@ -1,5 +1,6 @@
 import { Component, OnInit, Input} from '@angular/core';
-import { cards } from './cards';
+import { ICard } from './cards';
+
 
 @Component({
   selector: 'app-card',
@@ -11,8 +12,8 @@ export class CardComponent implements OnInit {
 @Input() description: string ="";
 @Input() dueDate: string = "";
 @Input() index!: number;
+@Input() data!: Array<ICard>;
 
-cards = cards;
 
   constructor() { }
 
@@ -21,7 +22,7 @@ cards = cards;
   }
 
   onDelete(index: number) {
-    this.cards.splice(index,1)
+    this.data.splice(index,1)
   }
 
 }
