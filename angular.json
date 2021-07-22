@@ -102,7 +102,7 @@
         "deploy": { 
           "builder": "angular-cli-ghpages:deploy",    
           "options": {    
-            "baseHref": "https://github.com/hovaroyan/todo-card",    
+            "baseHref":   "https://hovaroyan.github.io/todo-card/",   
             "name": "todo-card",    
             "email": "hovaroyan@gmail.com"    
             }    
